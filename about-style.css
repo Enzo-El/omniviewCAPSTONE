@@ -136,7 +136,7 @@ button.btn {
     height: 1.8rem;
     padding: 1.2rem;
 }
-ion-icon.bi.bi-piggy-bank.md.hydrated {
+ion-icon.bi.bi-people.md.hydrated {
   font-size: 30px;
   width: 1.8rem;
   height: 1.8rem;
@@ -151,22 +151,31 @@ ion-icon.bi.bi-person-workspace.md.hydrated {
   .how-it-works{
     padding: 2.4rem 0;
   }
-  
+  /* Customize the color of the arrow icons */
+  .carousel-control-next-icon {
+    color: #d6d3f0; /* Set the color of the arrow icons */
+    background-color: rgb(11, 7, 228);
+  }
+  .carousel-control-prev-icon
+   {
+    color: #d6d3f0; /* Set the color of the arrow icons */
+    background-color: rgb(11, 7, 228); 
+  }
+
   .testimonials{
     padding: 5rem 0;
-    background-color: var(--background-color);
   }
   
   .testimonial-text {
-    color: #fde3e3;
+    color: #1e07ee;
   }
   
   .testimonials-name{
-    color: #f0e2e2;
+    color: #2403df;
   }
   
   .testimonial-card{
-    width: 50%;
+    width: 60%;
   }
    span.navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
