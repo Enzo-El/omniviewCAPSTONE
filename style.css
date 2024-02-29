@@ -16,6 +16,9 @@ header{
     background-position: 80%;
     width: 100%;
 }
+.col-sm-12.col-md-6.col-lg-6.col-12.mt-4 {
+    text-align: justify;
+}
 .nav-bar-page{
     display: flex;
 }
@@ -55,7 +58,14 @@ div#navbarSupportedContent ul li:hover{
     background-color: rgb(222, 224, 240);
     border-radius: 5px;
 }
-
+.card.my-2 {
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 5px 7px 5px #9292bd;
+}
+section#news {
+    text-align: justify;
+}
 #btn3{
     width: 120px;
     height: 30px;

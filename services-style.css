@@ -71,10 +71,17 @@ img.img-fluid.img-thumbnail {
     margin-top: 2vh;
 }
 .img-fluid {
-    max-width: 85%;
+    max-width: 100%;
     height: auto;
     margin-top: 4vh;
 }
+.col-sm-6.col-md-3.col-lg-3.col-6 {
+    margin-top: 3vh;
+}
+.col-sm-6.col-md-3.col-lg-3.col-6 p{
+    text-align: justify;
+}
+
 h2{
     font-family: sans-serif;
 }
